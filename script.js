@@ -17,7 +17,7 @@ function getRepos(searchedUser, maxRepos) {
     type: "all",
     sort: "created",
     direction: "asc",
-    per_page: 5,
+    per_page: maxRepos,
     page: 1
   };
 //Create string of query parameters
